@@ -7,7 +7,7 @@
         <ScrollView>
             <StackLayout
                 Padding="15"
-                BackgroundColor="White">
+                BackgroundColor="LightCoral">
                
 
                 <Image
@@ -31,21 +31,21 @@
                     <Entry
                         Grid.Row="0"
                         Grid.Column="1"
-                        Placeholder="Ingrese Correo">
+                        Placeholder="Inserte correo">
                     </Entry>
 
                     <Label
                         Grid.Row="1"
                         Grid.Column="0"
                         Text="    Password"
-                        TextColor="Black">
+                        TextColor="Gray">
                     </Label>
 
                     <Entry
                         Grid.Row="1"
                         Grid.Column="1"
                         IsPassword="True"
-                        Placeholder="Ingrese su clave">
+                        Placeholder="Inserte su clave">
                     </Entry>
 
                 </Grid>
@@ -53,8 +53,12 @@
                 <ActivityIndicator>
                 </ActivityIndicator>
                 <Button x:Name="btLogin"  
-                    BackgroundColor="Navy"
-                    Text="Login">
+                    BackgroundColor="LightGreen"
+                    Text="Login"
+                        Grid.Row="3"
+                        Grid.Column="3"
+                        >
+                    
                 </Button>
 
             </StackLayout>
